@@ -1,0 +1,10 @@
+<h3>Subcommittees</h3>
+{{#if subcommittees}}
+  <ul>
+    {{#each subcommittees as |subcommittee|}}
+    <li>{{subcommittee.name}}</li>
+    {{/each}}
+  </ul>
+{{else}}
+this committee has no subcommittees
+{{/if}}

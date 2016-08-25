@@ -1,5 +1,11 @@
-<ul>
-{{#each model as |committee|}}
-  <li>{{committee.name}}</li>
-{{/each}}
-</ul>
+<div class="committeeLists">
+  {{committee-list committees=model class='committeesbychamber'}}
+  <div class='allcommittees'>
+    <h2>All</h2>
+    <ul>
+    {{#each model as |committee|}}
+      <li>{{committee.name}}</li>
+    {{/each}}
+    </ul>
+  </div>
+</div>

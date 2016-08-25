@@ -1,0 +1,15 @@
+<h3>houseCommittees</h3>
+{{#each houseCommittees as |houseCommittee|}}
+<li> {{houseCommittee.name}}</li>
+  {{#unless houseCommittee.subcommittee}}
+    {{#link-to 'subcommittees' houseCommittee.committee_id}}Subcommittees{{/link-to}}
+  {{/unless}}
+{{/each}}
+
+<h3>senateCommittees</h3>
+{{#each senateCommittees as |senateCommittee|}}
+<li> {{senateCommittee.name}}</li>
+  {{#unless senateCommittee.subcommittee}}
+    {{#link-to 'subcommittees' senateCommittee.committee_id}}Subcommittees{{/link-to}}
+  {{/unless}}
+{{/each}}
