@@ -63,7 +63,7 @@ Specify what it takes to deploy your app.
 _Contact by email: katka.karolcikova@gmail.com_
 * Github: kktuttle
 * https://github.com/KKTuttle/citizen
-* 
+
 ###  License
 
 _This software is licensed under the MIT license._<br><br>
