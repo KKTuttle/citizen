@@ -1,9 +1,16 @@
 # Citizen
+## By Katarina Tuttle
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Lookup legislators by zipcode, find out who the committees in house and senat are.
 
-## Prerequisites
+## Technologies Used
+
+* EmberJS
+* TypeScript
+* Node JS
+* Bower
+* Bootstrap
+* ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
@@ -50,4 +57,15 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Support and contact details
+
+_Contact by email: katka.karolcikova@gmail.com_
+* Github: kktuttle
+* https://github.com/KKTuttle/citizen
+* 
+###  License
+
+_This software is licensed under the MIT license._<br><br>
+Copyright (c) 2016 **Katarina Tuttle**
 
